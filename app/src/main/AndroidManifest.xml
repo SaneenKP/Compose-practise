@@ -12,6 +12,11 @@
         android:theme="@style/Theme.ComposePractise"
         tools:targetApi="31">
         <activity
+            android:name=".TestingComposeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_testing_compose"
+            android:theme="@style/Theme.ComposePractise" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
